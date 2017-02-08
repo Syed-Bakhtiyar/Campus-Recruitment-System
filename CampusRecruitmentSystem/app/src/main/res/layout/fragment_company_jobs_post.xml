@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bakhtiyar.campusrecruitmentsystem.CompanyJobsPost">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/job"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Write your required job" />
+
+            <EditText
+                android:id="@+id/person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Write your required Person skills" />
+
+            <EditText
+                android:id="@+id/qualification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Write your required Qualified Person" />
+
+            <EditText
+                android:id="@+id/Experince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Write your required Experience" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
